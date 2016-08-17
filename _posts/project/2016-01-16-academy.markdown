@@ -1,0 +1,36 @@
+---
+layout: project
+title:  "Academy.nl"
+categories:
+- project
+img: academy.jpg
+thumb: academy.jpg
+carousel:
+- single03.jpg
+tags:
+- web
+- back-end
+client: Guitar Academy
+website: http://academy.nl
+periode: "? - heden"
+tools: Google Apps Script, JavaScript, PHP
+---
+
+### Guitar Academy
+
+Guitar Academy is een bedrijf dat muziekles aanbiedt aan particulieren.
+
+#### Chatbot
+
+Afgelopen maanden ben ik bezig geweest met de bouw van een chatbot in Google Apps Script. Google Apps Script is een programmeertaal gebaseerd op JavaScript.
+De chatbot haalde zijn antwoorden uit een Google Spreadsheet. De bot werkt voor Facebook Messenger, Telegram, en als bot op de eigen website(s).
+De chatbot op hun website staat bijvoorbeeld op [Academy.nl](http://academy.nl/).
+
+#### Mogelijk maken website te beheren via Google Spreadsheets
+Academy.nl had de wens om hun websites makkelijk te beheren te maken via Google Spreadsheets. In PHP heb ik de oude website herschreven. Met één druk op de knop kan je bestaande data uploaden naar de website waar je de data van wilt updaten. Google Apps Script doet dan een POST-request naar het PHP-gedeelte van de website toe, waar de oude data wordt vervangen met de nieuwe data.
+Op [vocalacademy.nl](http://www.vocalcademy.nl/) kan je het systeem goed zien. Alle pagina’s en inhoud worden beheerd via Google Spreadsheets.
+
+#### Onlineles.nl
+[Onlineles.nl](http://onlineles.nl/) wenste de mogelijkheid om data van edX te laten zien op de website. Een cron-job haalt op een bepaalde interval data (cursussen) van de API van edX, en stopt deze in een JSON-bestand.
+Vervolgens wordt dit weergegeven op de website. Omdat het veel data is, kan je er doorheen bladeren met het pagination-systeem waarbij je een paginanummer kan selecteren.
+

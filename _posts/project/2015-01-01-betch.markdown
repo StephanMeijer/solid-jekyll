@@ -1,0 +1,20 @@
+---
+layout: project
+title:  Betch
+categories:
+- project
+tags:
+- web
+- back-end
+img: betch.jpg
+thumb: betch.jpg
+client: Betch B.V.
+website: http://betch.nl
+periode: Eind 2014
+tools: Ruby
+---
+
+#### Betch
+
+Voor de vergelijker [Betch](http://betch.nl/) heb ik meegeholpen aanpassingen te maken aan de back- en front-end van deze website. Betch is uiteindelijk verkocht.
+De back-end van Betch was geschreven in Ruby, in een framework dat door een werknemer van Betch werd geschreven. De code is niet Open Source.

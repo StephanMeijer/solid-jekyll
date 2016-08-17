@@ -419,6 +419,11 @@ a:focus {
   border-radius: 10px;
 }
 
+.carousel > .carousel-inner > .item > img {
+    min-width: 100%;
+    height: auto;
+}
+
 .ctitle {
 	color: {{ site.colors.primary }};
 	font-weight: 700;
